@@ -21,7 +21,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4.3.1
         with:
           role-to-assume: arn:aws:iam::773709398396:role/GithubActionsRepoApp
-          aws-region: <REGIAO>
+          aws-region: us-east-2
 
       - name: Amazon ECR "Login" Action for GitHub Actions
         uses: aws-actions/amazon-ecr-login@v2.0.1
